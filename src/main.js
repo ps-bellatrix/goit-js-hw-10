@@ -17,7 +17,7 @@ function makeOrder(delay, shouldResolve) {
 
 function addOrderRow(drink) {
   const item = document.createElement('li');
-  item.classList.add('.row-pending');
+  item.classList.add('row-pending');
   item.textContent = `${drink} у роботі...`;
   orderLog.append(item);
   return item;
